@@ -231,7 +231,7 @@ if __name__ == "__main__":
         print(f"Created script: {path}")
 
 def run():
-    project_name = "MyMLProject"
+    project_name = input("Enter the project name: ")
     # Create project directory
     project_dir = os.path.join(os.getcwd(), project_name)
     os.makedirs(project_dir, exist_ok=True)
